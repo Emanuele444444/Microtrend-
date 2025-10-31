@@ -1,25 +1,24 @@
 ```mermaid
 flowchart TD
     A["Analisi Predittiva Microtrend Moda 2026/27"]
+
     A --> B["Dataset di partenza"]
-    B --> C["Fonti: passerelle, social media, report"]
-    A --> D["Metodo di Analisi"]
-    D --> E["Serie temporali + Modello ARIMA"]
-    D --> F["Pattern recognition estetico-funzionale"]
-    A --> G["Output: 5 Microtrend Chiave"]
-    G --> H["Soft Power Tailoring"]
-    G --> I["Everyday Sheer"]
-    G --> J["Sport Utility Refined"]
-    G --> K["Summer Knit Set"]
-    G --> L["Colour Optimism"]
----
+    B --> C["Fonti: passerelle, social media, report di forecasting, street style"]
+    B --> D["Segmentazione: microtrend visivi + metriche qualitative"]
+    D --> E["Metriche: popolarità, portabilità, aesthetic engagement"]
 
-## ⚙️ Poi:
-1. Scorri giù e tocca **Commit changes** (pulsante verde).  
-2. Torna alla pagina principale del repository.  
-3. Scorri in basso e... 🎨 **il tuo diagramma apparirà in formato grafico!**
+    A --> F["Metodo di Analisi"]
+    F --> G["Serie temporali (Q4 2024 – Q3 2025)"]
+    F --> H["Modello ARIMA: proiezione trend futuri"]
+    F --> I["Analisi qualitativa: pattern recognition estetico-funzionale"]
+    I --> J["Esempio: Layering trasparente → Everyday Sheer"]
 
----
+    A --> K["Output del Modello"]
+    K --> L["Soft Power Tailoring"]
+    K --> M["Everyday Sheer"]
+    K --> N["Sport Utility Refined"]
+    K --> O["Summer Knit Set"]
+    K --> P["Colour Optimism"]
 
-✅ **Nota:**  
-Assicurati che la **prima riga** sia:
+    K --> Q["Evoluzione dei trend: segnali 2025 → codici 2026/27"]
+```
